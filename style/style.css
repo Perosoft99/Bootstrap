@@ -1,0 +1,41 @@
+.cardsContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #D3D3D3;
+}
+
+.headings {
+    text-align: center;
+    background-color: #ffc107;
+    margin-top: 8px;
+}
+
+.appointmentForm {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #D3D3D3;
+}
+
+.appointmentInfo {
+    margin-top: 20px;
+}
+
+.FaqArea {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #D3D3D3;
+    padding: 20px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #D3D3D3;
+    padding: 20px;
+}

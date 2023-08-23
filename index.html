@@ -1,0 +1,146 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+            crossorigin="anonymous">
+    </script>
+    <link rel="stylesheet" href="/style/style.css">
+</head>
+<header style="position: fixed; width: 100%; z-index: 1;">
+    <nav style="height: 55px;" class="navbar navbar-light bg-light" >
+        <div class="container-fluid">
+            <span style="margin-bottom: 15px;" class="navbar-brand h1">Hairdresser Hans</span>
+            <form class="d-flex">
+                <button class="btn btn-outline-warning me-2" type="button">Our service</button>
+                <button class="btn btn-outline-warning me-2" type="button">Make an appointment</button>
+                <button class="btn btn-outline-warning me-2" type="button">FAQ</button>
+                <button class="btn btn-outline-warning me-2" type="button">About us</button>
+                <input style="width: 300px;" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-warning" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+</header>
+<body>
+    <div>
+        <img style="width: 100%; height: 800px;" src="/images/main-img.jpg">
+    </div>
+    <h1 class="headings">Our Service</h1>
+    <div class="cardsContainer">
+        <div class="card" style="width: 18rem;">
+            <img src="/images/styling.jpg" class="card-img-top">
+            <div class="card-body">
+                <h5 class="card-title">Styling</h5>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img src="/images/coloring.webp" class="card-img-top">
+            <div class="card-body">
+                <h5 class="card-title">Coloring</h5>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img src="/images/haircut.jpg" class="card-img-top" style="height: 100%;">
+            <div class="card-body">
+                <h5 class="card-title">Haircuts</h5>
+            </div>
+        </div>
+    </div>
+    <h1 class="headings">Make an appointment</h1>
+    <div class="appointmentForm">
+        <div>
+            <input class="form-control form-control-lg appointmentInfo" type="text" placeholder="First and last name">
+            <input class="form-control form-control-lg appointmentInfo" type="text" placeholder="Phone number">
+            <input class="form-control form-control-lg appointmentInfo" type="text" placeholder="Date">
+            <textarea class="form-control form-control-lg appointmentInfo" id="exampleFormControlTextarea1"
+                      rows="3">Other info (haircut wishes)</textarea>
+            <button class="btn btn-warning appointmentInfo" type="submit">Send</button>
+        </div>
+        <div>
+            <table style="height: 350px;" class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">Day</th>
+                        <th scope="col">Working hours</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">Monday</th>
+                        <td>8.00 - 16.00</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Tuesday</th>
+                        <td>10.00 - 18.00</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Wednesday</th>
+                        <td>8.00 - 16.00</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Thursday</th>
+                        <td>8.00 - 16.00</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Friday</th>
+                        <td>12.00 - 20.00</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <h1 class="headings">FAQ (frequently asked questions)</h1>
+    <div class="FaqArea">
+        <div class="card" style="width: 18rem;">
+            <div class="card-body">
+                <h5 class="card-title">Do you have gift certificates?</h5>
+                <p class="card-text">Gift certificates are available for purchase in the salon or over the phone.
+                    If you purchase a gift certificate over the phone, we can either mail it to your lucky recipient
+                    or simply keep it in our files. Elixir salon gift certificates are not redeemable
+                    for cash or refundable.</p>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <div class="card-body">
+                <h5 class="card-title">Can I bring my pet along?</h5>
+                <p class="card-text">Of course you can. We even have outside area for dogs to have fun and play.
+                    But we don't do hairstyles for pets. </p>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <div class="card-body">
+                <h5 class="card-title">What rewards did you receive so far?</h5>
+                <p class="card-text">We received so many rewards that you need to come and see our reward section
+                    that we have in the salon. But we can brag with the best salon in USA in year 2022 award.</p>
+            </div>
+        </div>
+    </div>
+</body>
+<footer>
+    <h1 class="headings">About us</h1>
+    <div class="footer">
+        <div>
+            <h3>Contact</h3>
+            <p>Friseur Hans GmbH</p>
+            <p>Tax number: 324324234</p>
+            <p>Friseurgasse 5, 1020 Wien</p>
+            <p>Phone: 0668/345435346</p>
+            <p>Email: friesur.hans@f-hans.com</p>
+        </div>
+        <img style="height: 200px; width: 200px;" src="/images/logo.jpg">
+        <nav>
+            <h3>Navigation</h3>
+            <p>Our service</p>
+            <p>Make an appointment</p>
+            <p>FAQ</p>
+            <p>About us</p>
+        </nav>
+    </div>
+</footer>
+</html>
